@@ -49,6 +49,7 @@ body {
     margin: 10px;
     border-radius: 10px;
     padding: 12px;
+    text-decoration: underline;
 }
 
 .links > ul > li {
@@ -56,6 +57,7 @@ body {
 }
 
 .profile {
+    display: flex;
     background-color: #2B7A78;
     margin: 10px;
     margin-left: 15px;
@@ -66,12 +68,17 @@ body {
     border-color: #17252A;
 }
 
+.profile > ul {
+    margin: 20px;
+}
+
 .projects {
     display: flex;
     flex-wrap: wrap;
 }
 
 .card {
+    display: flex;
     border-style: solid;
     background-color: #122124;
     border-color: #17252A;
@@ -92,8 +99,8 @@ body {
 .card > footer {
     background-color: #122124;
     padding: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
     position: inherit;
     margin-top: 0;
 }
